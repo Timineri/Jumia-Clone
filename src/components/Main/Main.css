@@ -1,0 +1,6 @@
+.sales {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  background-color: white;
+  grid-gap: 10px;
+}

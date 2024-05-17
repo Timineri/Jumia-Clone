@@ -11,6 +11,7 @@ body {
   height: 100%;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 12.5px;
+  background-color: blueviolet;
 }
 body {
   line-height: 1.5;
@@ -50,4 +51,15 @@ h6 {
 
 .data {
   display: flex;
+  gap: 10px;
+}
+
+.main {
+  margin: 0 205px;
+  width: 1169px;
+}
+
+.category {
+  text-align: center;
+  background-color: #f68b1e;
 }

@@ -22,18 +22,31 @@ import mobile3 from "./images/iphones.png";
 import mobile4 from "./images/Phones5.png";
 import mobile5 from "./images/smartphones.png";
 import mobile6 from "./images/Tablets.png";
-import sales1 from "./images/flashsales/flashsales1.gif";
-import sales2 from "./images/flashsales/flashsales2.png";
-import sales3 from "./images/flashsales/flashsales3.png";
-import sales4 from "./images/flashsales/flashsales4.png";
-import sales5 from "./images/flashsales/flashsales5.png";
-import sales6 from "./images/flashsales/flashsales6.png";
-import sales7 from "./images/flashsales/flashsales7.png";
-import sales8 from "./images/flashsales/flashsales8.png";
-import sales9 from "./images/flashsales/flashsales9.png";
-import sales10 from "./images/flashsales/flashsales10.png";
-import sales11 from "./images/flashsales/flashsales11.png";
-import sales12 from "./images/flashsales/flashsales12.png";
+
+import clearance from "./images/clearance sales/Clearance Sales.png";
+import specialOffers from "./images/clearance sales/Special Offers.png";
+import phonesAndTablets from "./images/clearance sales/Phones $ Tablets.png";
+import televisions from "./images/clearance sales/Televisions.png";
+import fashionDeals from "./images/clearance sales/Fashion Deals.png";
+import refrigerators from "./images/clearance sales/Refrigerators.png";
+import buyNow from "./images/clearance sales/BUY-NOW-PAY-LATER_GIF-2.gif";
+import grocery from "./images/clearance sales/Grocery deals.png";
+import computingDeals from "./images/clearance sales/Computing Deals.png";
+import mobile from "./images/clearance sales/Mobile Assesories.png";
+import generators from "./images/clearance sales/Generators.png";
+import home from "./images/clearance sales/Home Essentials.png";
+
+import { LuApple } from "react-icons/lu";
+import { CgHome } from "react-icons/cg";
+import { PiCookingPot } from "react-icons/pi";
+import { IoIosPhonePortrait } from "react-icons/io";
+import { CiMonitor } from "react-icons/ci";
+import { PiTelevisionSimpleLight } from "react-icons/pi";
+import { FaShirt } from "react-icons/fa6";
+import { LuBaby } from "react-icons/lu";
+import { IoGameControllerOutline } from "react-icons/io5";
+import { GiWeightLiftingUp } from "react-icons/gi";
+import { CiCircleMore } from "react-icons/ci";
 
 export const allPictures = [
   {
@@ -87,16 +100,31 @@ export const allPictures = [
 ];
 
 export const clearanceSales = [
-  { id: 1, name: "banner", pic: sales1 },
-  { id: 2, name: "groceries", pic: sales2 },
-  { id: 3, name: "laptops", pic: sales3 },
-  { id: 4, name: "phone accessories", pic: sales4 },
-  { id: 5, name: "generator", pic: sales5 },
-  { id: 6, name: "home appliances", pic: sales6 },
-  { id: 7, name: "clearance sales", pic: sales7 },
-  { id: 8, name: "men fashion", pic: sales8 },
-  { id: 9, name: "mobile phones", pic: sales9 },
-  { id: 10, name: "television", pic: sales10 },
-  { id: 11, name: "shoes", pic: sales11 },
-  { id: 12, name: "refridgerator", pic: sales12 },
+  { id: 1, name: "Clearance Sales", pic: clearance },
+  { id: 2, name: "Special Offers", pic: specialOffers },
+  { id: 3, name: "Phones and Tablets", pic: phonesAndTablets },
+  { id: 4, name: "Televisions", pic: televisions },
+  { id: 5, name: "Fashion Deals", pic: fashionDeals },
+  { id: 6, name: "Refrigerators", pic: refrigerators },
+  { id: 7, name: "Buy Now, Pay Later", pic: buyNow },
+  { id: 8, name: "Grocery Deals", pic: grocery },
+  { id: 9, name: "Computing Deals", pic: computingDeals },
+  { id: 10, name: "Mobile Assesories", pic: mobile },
+  { id: 11, name: "Generators", pic: generators },
+  { id: 12, name: "Home Essentials", pic: home },
+];
+
+export const asideData = [
+  { icon: <LuApple />, iconText: "superMarket" },
+  { icon: <CgHome />, iconText: "health $ beauty" },
+  { icon: <PiCookingPot />, iconText: "Home $ Office" },
+  { icon: <IoIosPhonePortrait />, iconText: "Appliencies" },
+  { icon: <CiMonitor />, iconText: "phones & tablet" },
+  { icon: <PiTelevisionSimpleLight />, iconText: "computing" },
+  { icon: <FaShirt />, iconText: "Electronics" },
+  { icon: <IoGameControllerOutline />, iconText: "Fashion" },
+  { icon: <LuBaby />, iconText: "Baby Products" },
+  { icon: <IoGameControllerOutline />, iconText: "Gaming" },
+  { icon: <GiWeightLiftingUp />, iconText: "Sporting Goods" },
+  { icon: <CiCircleMore />, iconText: "Other Categories" },
 ];
