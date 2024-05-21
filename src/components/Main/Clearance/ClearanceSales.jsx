@@ -1,7 +1,7 @@
 import React from "react";
-import { clearanceSales } from "../../data";
+import { clearanceSales } from "../../../data";
 import Sales from "./Sales";
-import "./Main.css";
+import "../Main.css";
 export default function ClearanceSales() {
   return (
     <div className="sales">

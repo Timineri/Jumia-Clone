@@ -54,6 +54,11 @@ h6 {
   gap: 10px;
 }
 
+.data2 {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
 .main {
   margin: 0 205px;
   width: 1169px;

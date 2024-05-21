@@ -48,6 +48,39 @@ import { IoGameControllerOutline } from "react-icons/io5";
 import { GiWeightLiftingUp } from "react-icons/gi";
 import { CiCircleMore } from "react-icons/ci";
 
+import WristWatch from "./images/TopSelling/WristWatch.jpg";
+import PowerBank from "./images/TopSelling/PowerBank.jpg";
+import PowerBank2 from "./images/TopSelling/PowerBank2.jpg";
+import Device from "./images/TopSelling/Device.jpg";
+import Earpods from "./images/TopSelling/EarPods.jpg";
+import Shirts from "./images/TopSelling/Shirts.jpg";
+
+import Collection1 from "./images/Collection/Appliances.jpg";
+import Collection2 from "./images/Collection/Phones.jpg";
+import Collection3 from "./images/Collection/Fashion.jpg";
+import Collection4 from "./images/Collection/Beauty.jpg";
+import Collection5 from "./images/Collection/home.png";
+import Collection6 from "./images/Collection/Supermarket.jpg";
+import Collection7 from "./images/Collection/computing.jpg";
+import Collection8 from "./images/Collection/Mobile_Accessories.jpg";
+import Collection9 from "./images/Collection/Gaming.jpg";
+import Collection10 from "./images/Collection/Power_Deals.jpg";
+import Collection11 from "./images/Collection/Kids_Corner.jpg";
+import Collection12 from "./images/Collection/Electronic.jpg";
+
+import Official1 from "./images/Official Store/NIVEA.png";
+import Official2 from "./images/Official Store/adidas.png";
+import Official3 from "./images/Official Store/binatone.png";
+import Official4 from "./images/Official Store/diageo.png";
+import Official5 from "./images/Official Store/haier-thermocool.png";
+import Official6 from "./images/Official Store/infinix.png";
+import Official7 from "./images/Official Store/itel.png";
+import Official8 from "./images/Official Store/loreal.png";
+import Official9 from "./images/Official Store/oraimo.png";
+import Official10 from "./images/Official Store/pernord-ricard.png";
+import Official11 from "./images/Official Store/xiaomi.png";
+import Official12 from "./images/Official Store/tecno.png";
+
 export const allPictures = [
   {
     id: 1,
@@ -127,4 +160,52 @@ export const asideData = [
   { icon: <IoGameControllerOutline />, iconText: "Gaming" },
   { icon: <GiWeightLiftingUp />, iconText: "Sporting Goods" },
   { icon: <CiCircleMore />, iconText: "Other Categories" },
+];
+
+export const topSellingItems = [
+  { id: 1, name: "Wristwatch", pic: WristWatch },
+  { id: 2, name: "Power Bank", pic: PowerBank },
+  { id: 3, name: "Power Bank 2", pic: PowerBank2 },
+  { id: 4, name: "Device", pic: Device },
+  { id: 5, name: "Earpods", pic: Earpods },
+  { id: 6, name: "Shirts", pic: Shirts },
+];
+
+export const pictures = [
+  {
+    id: 1,
+    category: "Shop from our collection",
+    data: [
+      { name: "Appliance Deals", pic: Collection1 },
+      { name: "Phone Deals", pic: Collection2 },
+      { name: "Fashion Deals", pic: Collection3 },
+      { name: "Beauty Deals", pic: Collection4 },
+      { name: "Home Entertainment", pic: Collection5 },
+      { name: "Supermarket Deals", pic: Collection6 },
+      { name: "Computing Deals", pic: Collection7 },
+      { name: "Accessories Deals", pic: Collection8 },
+      { name: "Gaming Deals", pic: Collection9 },
+      { name: "Power Deals", pic: Collection10 },
+      { name: "Kids Corner", pic: Collection11 },
+      { name: "Home & Office", pic: Collection12 },
+    ],
+  },
+  {
+    id: 2,
+    category: "Official Store",
+    data: [
+      { pic: Official1 },
+      { pic: Official2 },
+      { pic: Official3 },
+      { pic: Official4 },
+      { pic: Official5 },
+      { pic: Official6 },
+      { pic: Official7 },
+      { pic: Official8 },
+      { pic: Official9 },
+      { pic: Official10 },
+      { pic: Official11 },
+      { pic: Official12 },
+    ],
+  },
 ];
